@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Color Grid Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+      gap: 10px;
+      padding: 20px;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .color-box {
+      width: 100%;
+      padding-bottom: 100%; /* Make square */
+      border-radius: 8px;
+    }
+
+    .image-placeholder {
+      width: 300px;
+      height: 200px;
+      background-color: #222;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px 0;
+      border: 2px dashed #555;
+      border-radius: 10px;
+    }
+
+    .footer-text {
+      font-size: 1.2rem;
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="color-grid">
+    <div class="color-box" style="background-color: #100514;"></div>
+    <div class="color-box" style="background-color: #270c31;"></div>
+    <div class="color-box" style="background-color: #401550;"></div>
+    <div class="color-box" style="background-color: #08030a;"></div>
+    <div class="color-box" style="background-color: #18091e;"></div>
+    <div class="color-box" style="background-color: #0b040e;"></div>
+    <div class="color-box" style="background-color: #020103;"></div>
+    <div class="color-box" style="background-color: #22142f;"></div>
+    <div class="color-box" style="background-color: #08050b;"></div>
+  </div>
+
+  <img src="GoodLuck.png" alt="Description" style="width: 300px; height: auto; border-radius: 10px;" />
+
+  <div class="footer-text">
+    xsyeqveferdzgiu
+  </div>
+
+</body>
+</html>
